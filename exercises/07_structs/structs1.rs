@@ -19,7 +19,6 @@ mod tests {
 
     #[test]
     fn regular_structs() {
-        // TODO: Instantiate a regular struct.
         let green = ColorRegularStruct {
             red: 0,
             green: 255,
@@ -33,7 +32,6 @@ mod tests {
 
     #[test]
     fn tuple_structs() {
-        // TODO: Instantiate a tuple struct.
         let green = (0u8, 255u8, 0u8);
 
         assert_eq!(green.0, 0);
