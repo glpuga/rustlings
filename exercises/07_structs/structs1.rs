@@ -44,7 +44,6 @@ mod tests {
         // TODO: Instantiate a unit struct.
         let unit_struct = UnitStruct;
         let message = format!("{unit_struct:?}s are fun!");
-
         assert_eq!(message, "UnitStructs are fun!");
     }
 }
